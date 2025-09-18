@@ -16,7 +16,7 @@ namespace kshook::sv6c
                 auto const clear = static_cast<sdvx::clear_t>(score[4].get<std::uint32_t>() - 1);
                 auto const grade = static_cast<sdvx::grade_t>(score[5].get<std::uint32_t>() - 1);
 
-                if (clear < sdvx::clear_t::CLEAR_PLAYED || clear > sdvx::clear_t::CLEAR_PERFECT)
+                if (clear < sdvx::clear_t::CLEAR_PLAYED || clear > sdvx::clear_t::CLEAR_MAXXIVE)
                     continue;
 
                 if (grade < sdvx::grade_t::GRADE_D || grade > sdvx::grade_t::GRADE_S)

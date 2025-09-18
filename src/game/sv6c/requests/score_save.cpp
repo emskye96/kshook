@@ -92,6 +92,8 @@ namespace kshook::sv6c
             return sdvx::clear_t::CLEAR_ULTIMATE_CHAIN;
         case 5:
             return sdvx::clear_t::CLEAR_PERFECT;
+        case 6:
+            return sdvx::clear_t::CLEAR_MAXXIVE;
         }
 
         throw formatted_exception("unexpected clear type '{}' encountered", value);

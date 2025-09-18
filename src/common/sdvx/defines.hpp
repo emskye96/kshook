@@ -41,5 +41,6 @@ namespace kshook::sdvx
         CLEAR_EXCESSIVE,
         CLEAR_ULTIMATE_CHAIN,
         CLEAR_PERFECT,
+        CLEAR_MAXXIVE,
     };
 }
